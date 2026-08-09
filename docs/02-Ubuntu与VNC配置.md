@@ -75,7 +75,9 @@ vncserver -geometry 1920x1080 :1
 1. 下载 [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
 2. 地址填写：`公网IP:1`（英文冒号）
 3. 输入前面设置的 VNC 密码
-4. 成功进入 Ubuntu 桌面
+4. 成功进入 Ubuntu 桌面，效果如下：
+
+![VNC 远程桌面](./images/02-vnc远程桌面.png)
 
 ## 验证
 
