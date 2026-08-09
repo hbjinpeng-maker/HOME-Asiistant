@@ -1,0 +1,25 @@
+# Home Assistant runtime data (generated on server)
+config/.storage/
+config/home-assistant_v2.db
+config/home-assistant.log*
+config/.cloud/
+config/deps/
+config/tts/
+config/www/community/
+
+# Secrets and local env
+.env
+*.secret
+secrets.yaml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Temp files
+doc_extract.txt
+*.tmp

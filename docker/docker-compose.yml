@@ -1,0 +1,21 @@
+# Home Assistant - 云服务器 Docker Compose 部署
+# 参考: https://www.home-assistant.io/installation/linux#docker-compose
+#
+# 使用方法:
+#   cd docker
+#   cp .env.example .env
+#   docker compose up -d
+
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: ${HA_IMAGE:-ghcr.io/home-assistant/home-assistant:stable}
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+    environment:
+      - TZ=${TZ:-Asia/Shanghai}
+    volumes:
+      - ${HA_CONFIG_DIR:-/data/homeassistant}:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /run/dbus:/run/dbus:ro
