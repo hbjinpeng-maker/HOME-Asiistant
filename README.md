@@ -4,6 +4,28 @@
 
 ---
 
+## ✨ 最终成果展示
+
+跟着教程一步步操作，你将得到以下效果：
+
+### 🌐 Home Assistant 智能家居控制台
+
+![整体架构](./docs/images/01-整体架构.png)
+
+### 🖥️ 云服务器 VNC 远程桌面
+
+![VNC 远程桌面](./docs/images/02-vnc远程桌面.png)
+
+### 🏠 部署完成的 HA 主界面
+
+![HA 部署完成](./docs/images/04-ha部署完成.png)
+
+### 📱 米家设备统一接入控制
+
+![米家设备接入](./docs/images/05-米家设备接入.png)
+
+---
+
 ## 一、这个项目是什么？
 
 ### 1.1 Home Assistant 是什么？
@@ -86,7 +108,8 @@ HOME-Asiistant/
 │   ├── 02-Ubuntu与VNC配置.md    ← 装系统 + 桌面 + VNC
 │   ├── 03-Docker安装.md         ← 安装容器环境
 │   ├── 04-HomeAssistant部署.md  ← 部署 HA 主程序
-│   └── 05-HACS与米家接入.md      ← 装插件 + 绑定米家设备
+│   ├── 05-HACS与米家接入.md      ← 装插件 + 绑定米家设备
+│   └── images/                 ← 🖼️ 教程配图
 ├── scripts/                   ← ⚙️ 一键部署脚本
 │   ├── setup-vnc.sh            ← 安装桌面 + VNC
 │   ├── install-docker.sh       ← 安装 Docker
